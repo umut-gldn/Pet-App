@@ -1,0 +1,64 @@
+* {
+	text-transform: none;
+	// border-radius: 0 !important;
+}
+
+.auth-card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ion-height {
+	height: 100vh;
+}
+
+.ion-transparent {
+	box-shadow: none !important;
+}
+
+.ion-bold {
+	font-weight: bold;
+}
+
+.ion-select {
+	height: 5vh;
+	line-height: 5vh;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+
+.ion-input {
+	background-color: #fff;
+	border: 1px solid #dddfe2;
+	color: grey;
+	height: 5vh;
+	line-height: 5vh;
+	vertical-align: middle;
+	border-radius: 6px;
+}
+
+.button-text {
+	font-weight: bold;
+}
+
+.card-content {
+	padding: 10px;
+	background-color: var(--ion-color-tertiary);
+}
+
+.image {
+	height: 20vh;
+	align-items: center;
+	margin: auto;
+}
+
+.place-holder {
+	color: #a9a9a9;
+}
+
+.logo {
+	font-family: 'Pacifico', cursive;
+	font-size: large;
+}
